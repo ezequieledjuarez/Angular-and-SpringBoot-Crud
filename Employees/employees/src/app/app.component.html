@@ -1,3 +1,18 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class = "navbar-nav">
+      <li class = "nav-item">
+          <a routerLink = "employee" routerLinkActive="active" class= "nav-link"> Employee List</a>
+      </li>
+  </ul>
+</nav>
+
+<h1 class="text-center">{{title}}</h1>
 <div class = container>
-  <app-employee-list></app-employee-list>
+  <router-outlet></router-outlet>
 </div>
+
+<footer class = "footer">
+  <div class = "container">
+    <span> All Rights Reserved {{year}} Ezequiel Juarez</span>
+  </div>
+</footer>
