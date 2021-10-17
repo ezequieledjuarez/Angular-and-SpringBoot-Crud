@@ -3,7 +3,6 @@
 <form (ngSubmit) = "onSubmit()">
 
   <div class = "form-group">
-
     <label>First Name</label>
     <input
       class="form-control"
@@ -11,11 +10,9 @@
       name = "firstName"
       [(ngModel)] = "employee.firstName"
       type = "text">
-
   </div>
 
   <div class = "form-group">
-
     <label>Last Name</label>
     <input
       class="form-control"
@@ -23,11 +20,9 @@
       name = "lastName"
       [(ngModel)] = "employee.lastName"
       type = "text">
-
   </div>
 
   <div class = "form-group">
-
     <label>Email</label>
     <input
       class="form-control"
@@ -35,9 +30,8 @@
       name = "emailId"
       [(ngModel)] = "employee.emailId"
       type = "text">
-
   </div>
 
-  <button class = "btn btn-success" type = "submit"></button>
+  <button class = "btn btn-success" type = "submit"> Create </button>
 </form>
 </div>
