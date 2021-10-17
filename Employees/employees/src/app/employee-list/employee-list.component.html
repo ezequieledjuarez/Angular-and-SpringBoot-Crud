@@ -1,3 +1,4 @@
+<h2>Employees List</h2>
 <table class = "table table-striped">
   <thead>
   <tr>
@@ -15,8 +16,14 @@
       <td>
         <button
           (click) = "updateEmployee(employee.id)"
-          class = "btn btn-info" >
+          class = "btn btn-warning" >
           Update
+        </button>
+        <button
+        (click) = "deleteEmployee(employee.id)"
+        class = "btn btn-danger"
+        style="margin-left: 10px">
+          Delete
         </button>
       </td>
     </tr>
